@@ -12,5 +12,35 @@
   --gray-800: #444;
   --gray-900: #333;
 
+  --blue-300: #4FB4DE;
+  --blue-500: #3A8BBB;
+  --blue-700: #1E6189;
+  --blue-900: #0C3F5D;
+
+  --pink-500: #D95988;
+  --pink-700: #DF3E7B;
+  --pink-900: #C22B65;
+
+  --grey-300: #BBBBBB;
+  --grey-500: #999999;
+  --grey-700: #777777;
+  --grey-900: #444444;
+
   /* part 2: decisions can be encoded using aliases */
+  /* This is the palette */
+  --color-text-primary: var(--grey-900);
+  --color-text-primary-light: var(--grey-700);
+  --color-text-secondary: var(--grey-500);
+  --color-text-subtle: var(--grey-300);
+
+  /* This is the palette for colors */
+  --color-accent-300: var(--blue-300);
+  --color-accent-500: var(--blue-500);
+  --color-accent-700: var(--blue-700);
+  --color-accent-900: var(--blue-900);
+  --color-brand-300: var(--pink-300);
+  --color-brand-500: var(--pink-500);
+  --color-brand-700: var(--pink-700);
+  --color-brand-900: var(--pink-900);
+
 }
