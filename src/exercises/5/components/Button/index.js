@@ -13,27 +13,27 @@ import PropTypes from "prop-types";
 
 // Option 1: With class names and css
 
-// import "./button.scss";
-//
-// function Button({ variant, ...props }) {
-//   return (
-//     <button className={`btn ${variant}`} {...props}>
-//       {props.children}
-//     </button>
-//   );
-// }
-
-// Option 2: With css-in-js
-
-import { Element } from "./button.elements";
+import "./button.scss";
 
 function Button({ variant, ...props }) {
   return (
-    <Element variant={variant} {...props}>
+    <button className={`btn ${variant}`} {...props}>
       {props.children}
-    </Element>
+    </button>
   );
 }
+
+// Option 2: With css-in-js
+
+// import { Element } from "./button.elements";
+
+// function Button({ variant, ...props }) {
+//   return (
+//     <Element variant={variant} {...props}>
+//       {props.children}
+//     </Element>
+//   );
+// }
 
 // Common properties:
 

@@ -13,6 +13,15 @@ import PropTypes from "prop-types";
 
 // Option 1: With class names and css
 
+// React Syntax
+// function Button() {
+//   return <button> Hello</button>
+// }
+
+// function Button(props) {
+// return <button>{props.child}</button>
+// }
+
 import "./avatar.scss";
 
 function Avatar({ size, ...props }) {

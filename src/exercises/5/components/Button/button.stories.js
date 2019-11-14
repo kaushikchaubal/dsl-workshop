@@ -56,6 +56,11 @@ export const success = () => (
     <Button variant="success" disabled>
       Button Label
     </Button>
+    <br />
+    <br />
+    <Button variant="success" hover>
+      Button Label
+    </Button>
   </>
 );
 

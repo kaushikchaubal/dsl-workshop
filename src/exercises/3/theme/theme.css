@@ -27,6 +27,7 @@
   --grey-900: #444444;
 
   /* part 2: decisions can be encoded using aliases */
+  
   /* This is the palette */
   --color-text-primary: var(--grey-900);
   --color-text-primary-light: var(--grey-700);

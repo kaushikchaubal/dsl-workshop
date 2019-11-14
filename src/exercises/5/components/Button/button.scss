@@ -1,8 +1,8 @@
 .btn {
   font-size: var(--fontsize-2);
-  padding: 0 ___;
+  padding: 0 var(--space-3);
   border: 1px solid;
-  border-radius: ___;
+  border-radius: var(--radii-medium);
   cursor: pointer;
   height: 40px;
 
@@ -92,6 +92,11 @@
 }
 
 .btn.success {
-  background: yellow;
-  color: red;
+  background: var(--color-success-500);
+  color: var(--white);
+
+  &:hover {
+    background: var(--color-success-700);
+  }
 }
+
